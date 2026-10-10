@@ -67,7 +67,7 @@ class _TradeListScreenState extends State<TradeListScreen> {
         backgroundColor: Colors.black54,
       ),
       body: _trades.isEmpty
-          data: Center(
+          ? Center(
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: const [
